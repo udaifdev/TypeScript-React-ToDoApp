@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  
+  /* Use the online image as the background */
+  background: url('https://us.123rf.com/450wm/279photo/279photo2101/279photo210100147/161943355-company-strategy-development-in-business-on-office-desk-background-top-view-mock-up.jpg?ver=6') no-repeat center center fixed;
+  background-size: cover;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
